@@ -37,7 +37,8 @@ VALUES
 (9,'Rohan','Gupta',34,'Male','1992-09-16'),
 (10,'Divya','Rao',28,'Female','1998-07-04'),
 (11,'Arjun','Mishra',38,'Male','1988-12-30'),
-(12,'Neha','Kapoor',32,'Female','1994-03-27');
+(12,'Neha','Kapoor',32,'Female','1994-03-27'),
+(13,'Aditya','Menon',24,'Male','2001-02-15');
 
 INSERT INTO employee_salary
 (employee_id, first_name, last_name, occupation, salary, dept_id)
@@ -53,7 +54,8 @@ VALUES
 (9,'Rohan','Gupta','Database Administrator',81000,1),
 (10,'Divya','Rao','Quality Analyst',54000,3),
 (11,'Arjun','Mishra','Operations Manager',90000,5),
-(12,'Neha','Kapoor','Data Scientist',110000,1);
+(12,'Neha','Kapoor','Data Scientist',110000,1),
+(13,'Aditya','Menon','Intern',25000,NULL);
 
 -- Departments
 CREATE TABLE company_departments (
